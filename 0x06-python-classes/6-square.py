@@ -54,4 +54,4 @@ class Square:
 
     def my_print(self):
         """Prints stdout the square with the character #"""
-        print(self.print_position(), end="")
+        print(self.print_position(), end='')
