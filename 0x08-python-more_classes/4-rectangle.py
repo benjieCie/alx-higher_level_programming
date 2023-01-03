@@ -64,4 +64,7 @@ class Rectangle:
         return (rep_str)
 
     def __repr__(self):
-        return "Rectangle({:d}, {:d}".format(self.__width, self.__height)
+        """Return rep of Rectangle that can be used by eval() to 
+        create new object"""
+        rec_str = "Rectangle(" + str(self.__width) + "," + str(self.__height) + ")"
+        return rec_str
