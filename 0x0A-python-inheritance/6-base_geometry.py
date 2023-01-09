@@ -7,4 +7,4 @@ class BaseGeometry:
 
     def area(self):
         """Area not yet implemented"""
-        raise Esception("area() is not implemented")
+        raise Exception("area() is not implemented")
