@@ -1,4 +1,4 @@
-#!/bin/usr/python3
+#!/usr/bin/python3
 """A function that writes a string to a text and returns no of chars"""
 
 
