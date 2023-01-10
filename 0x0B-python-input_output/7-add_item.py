@@ -12,7 +12,5 @@ try:
     a = load_from_json_file(filename)
 except FileNotFoundError:
     a = []
-finally:
-    for element in sys.argv[1:]:
-        a.append(str(element))
-    save_to_json_file(a, filename)
+a.extend(sys.argv[1:])
+save_to_json_file(a, filename)
